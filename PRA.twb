@@ -1,0 +1,2873 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0511.0935                               -->
+<workbook source-build='2021.1.2 (20211.21.0511.0935)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <BasicButtonObject />
+    <BasicButtonObjectTextSupport />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='risk_factors' inline='true' name='federated.05z8b7e0rfstv01h02r6t1f1yxzi' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='risk_factors' name='textscan.0827f150eiguhw12uiaz71t9b6pc'>
+            <connection class='textscan' directory='/Users/ignaciofernandezestebanez/Downloads' filename='risk_factors.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0827f150eiguhw12uiaz71t9b6pc' name='risk_factors.csv' table='[risk_factors#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_ES' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Age' ordinal='1' />
+            <column datatype='integer' name='Number of sexual partners' ordinal='2' />
+            <column datatype='integer' name='First sexual intercourse' ordinal='3' />
+            <column datatype='string' name='Num of pregnancies' ordinal='4' />
+            <column datatype='string' name='Smokes' ordinal='5' />
+            <column datatype='integer' name='Smokes (years)' ordinal='6' />
+            <column datatype='string' name='Smokes (packs/year)' ordinal='7' />
+            <column datatype='string' name='Hormonal Contraceptives' ordinal='8' />
+            <column datatype='string' name='Hormonal Contraceptives (years)' ordinal='9' />
+            <column datatype='string' name='IUD' ordinal='10' />
+            <column datatype='string' name='IUD (years)' ordinal='11' />
+            <column datatype='string' name='STDs' ordinal='12' />
+            <column datatype='string' name='STDs (number)' ordinal='13' />
+            <column datatype='string' name='STDs:condylomatosis' ordinal='14' />
+            <column datatype='string' name='STDs:cervical condylomatosis' ordinal='15' />
+            <column datatype='string' name='STDs:vaginal condylomatosis' ordinal='16' />
+            <column datatype='string' name='STDs:vulvo-perineal condylomatosis' ordinal='17' />
+            <column datatype='string' name='STDs:syphilis' ordinal='18' />
+            <column datatype='string' name='STDs:pelvic inflammatory disease' ordinal='19' />
+            <column datatype='string' name='STDs:genital herpes' ordinal='20' />
+            <column datatype='string' name='STDs:molluscum contagiosum' ordinal='21' />
+            <column datatype='string' name='STDs:AIDS' ordinal='22' />
+            <column datatype='string' name='STDs:HIV' ordinal='23' />
+            <column datatype='string' name='STDs:Hepatitis B' ordinal='24' />
+            <column datatype='string' name='STDs:HPV' ordinal='25' />
+            <column datatype='integer' name='STDs: Number of diagnosis' ordinal='26' />
+            <column datatype='string' name='STDs: Time since first diagnosis' ordinal='27' />
+            <column datatype='string' name='STDs: Time since last diagnosis' ordinal='28' />
+            <column datatype='integer' name='Dx:Cancer' ordinal='29' />
+            <column datatype='integer' name='Dx:CIN' ordinal='30' />
+            <column datatype='integer' name='Dx:HPV' ordinal='31' />
+            <column datatype='integer' name='Dx' ordinal='32' />
+            <column datatype='integer' name='Hinselmann' ordinal='33' />
+            <column datatype='integer' name='Schiller' ordinal='34' />
+            <column datatype='integer' name='Citology' ordinal='35' />
+            <column datatype='integer' name='Biopsy' ordinal='36' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0827f150eiguhw12uiaz71t9b6pc' name='risk_factors.csv' table='[risk_factors#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_ES' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Age' ordinal='1' />
+            <column datatype='integer' name='Number of sexual partners' ordinal='2' />
+            <column datatype='integer' name='First sexual intercourse' ordinal='3' />
+            <column datatype='string' name='Num of pregnancies' ordinal='4' />
+            <column datatype='string' name='Smokes' ordinal='5' />
+            <column datatype='integer' name='Smokes (years)' ordinal='6' />
+            <column datatype='string' name='Smokes (packs/year)' ordinal='7' />
+            <column datatype='string' name='Hormonal Contraceptives' ordinal='8' />
+            <column datatype='string' name='Hormonal Contraceptives (years)' ordinal='9' />
+            <column datatype='string' name='IUD' ordinal='10' />
+            <column datatype='string' name='IUD (years)' ordinal='11' />
+            <column datatype='string' name='STDs' ordinal='12' />
+            <column datatype='string' name='STDs (number)' ordinal='13' />
+            <column datatype='string' name='STDs:condylomatosis' ordinal='14' />
+            <column datatype='string' name='STDs:cervical condylomatosis' ordinal='15' />
+            <column datatype='string' name='STDs:vaginal condylomatosis' ordinal='16' />
+            <column datatype='string' name='STDs:vulvo-perineal condylomatosis' ordinal='17' />
+            <column datatype='string' name='STDs:syphilis' ordinal='18' />
+            <column datatype='string' name='STDs:pelvic inflammatory disease' ordinal='19' />
+            <column datatype='string' name='STDs:genital herpes' ordinal='20' />
+            <column datatype='string' name='STDs:molluscum contagiosum' ordinal='21' />
+            <column datatype='string' name='STDs:AIDS' ordinal='22' />
+            <column datatype='string' name='STDs:HIV' ordinal='23' />
+            <column datatype='string' name='STDs:Hepatitis B' ordinal='24' />
+            <column datatype='string' name='STDs:HPV' ordinal='25' />
+            <column datatype='integer' name='STDs: Number of diagnosis' ordinal='26' />
+            <column datatype='string' name='STDs: Time since first diagnosis' ordinal='27' />
+            <column datatype='string' name='STDs: Time since last diagnosis' ordinal='28' />
+            <column datatype='integer' name='Dx:Cancer' ordinal='29' />
+            <column datatype='integer' name='Dx:CIN' ordinal='30' />
+            <column datatype='integer' name='Dx:HPV' ordinal='31' />
+            <column datatype='integer' name='Dx' ordinal='32' />
+            <column datatype='integer' name='Hinselmann' ordinal='33' />
+            <column datatype='integer' name='Schiller' ordinal='34' />
+            <column datatype='integer' name='Citology' ordinal='35' />
+            <column datatype='integer' name='Biopsy' ordinal='36' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;es_ES&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of sexual partners</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of sexual partners]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>Number of sexual partners</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>First sexual intercourse</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[First sexual intercourse]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>First sexual intercourse</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Num of pregnancies</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Num of pregnancies]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>Num of pregnancies</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Smokes</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Smokes]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>Smokes</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Smokes (years)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Smokes (years)]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>Smokes (years)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Smokes (packs/year)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Smokes (packs/year)]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>Smokes (packs/year)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hormonal Contraceptives</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Hormonal Contraceptives]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>Hormonal Contraceptives</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hormonal Contraceptives (years)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Hormonal Contraceptives (years)]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>Hormonal Contraceptives (years)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IUD</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[IUD]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>IUD</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IUD (years)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[IUD (years)]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>IUD (years)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STDs</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STDs]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>STDs</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STDs (number)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STDs (number)]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>STDs (number)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STDs:condylomatosis</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STDs:condylomatosis]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>STDs:condylomatosis</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STDs:cervical condylomatosis</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STDs:cervical condylomatosis]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>STDs:cervical condylomatosis</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STDs:vaginal condylomatosis</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STDs:vaginal condylomatosis]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>STDs:vaginal condylomatosis</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STDs:vulvo-perineal condylomatosis</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STDs:vulvo-perineal condylomatosis]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>STDs:vulvo-perineal condylomatosis</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STDs:syphilis</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STDs:syphilis]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>STDs:syphilis</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STDs:pelvic inflammatory disease</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STDs:pelvic inflammatory disease]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>STDs:pelvic inflammatory disease</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STDs:genital herpes</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STDs:genital herpes]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>STDs:genital herpes</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STDs:molluscum contagiosum</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STDs:molluscum contagiosum]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>STDs:molluscum contagiosum</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STDs:AIDS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STDs:AIDS]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>STDs:AIDS</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STDs:HIV</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STDs:HIV]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>STDs:HIV</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STDs:Hepatitis B</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STDs:Hepatitis B]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>STDs:Hepatitis B</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STDs:HPV</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STDs:HPV]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>STDs:HPV</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STDs: Number of diagnosis</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[STDs: Number of diagnosis]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>STDs: Number of diagnosis</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STDs: Time since first diagnosis</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STDs: Time since first diagnosis]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>STDs: Time since first diagnosis</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STDs: Time since last diagnosis</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STDs: Time since last diagnosis]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>STDs: Time since last diagnosis</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dx:Cancer</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dx:Cancer]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>Dx:Cancer</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dx:CIN</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dx:CIN]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>Dx:CIN</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dx:HPV</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dx:HPV]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>Dx:HPV</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dx</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dx]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>Dx</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hinselmann</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hinselmann]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>Hinselmann</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Schiller</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Schiller]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>Schiller</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Citology</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Citology]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>Citology</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Biopsy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Biopsy]</local-name>
+            <parent-name>[risk_factors.csv]</parent-name>
+            <remote-alias>Biopsy</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' datatype='integer' name='[Age]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[Biopsy]' role='dimension' type='ordinal'>
+        <aliases>
+          <alias key='0' value='No Cervical Cancer' />
+          <alias key='1' value='Cervical Cancer' />
+        </aliases>
+      </column>
+      <column caption='Factor' datatype='real' name='[Calculation_1773433141807312897]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='' />
+      </column>
+      <column aggregation='Sum' datatype='integer' name='[Citology]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[First sexual intercourse]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[Number of sexual partners]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[STDs:syphilis]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;0.0&quot;' value='No Syphilis' />
+          <alias key='&quot;1.0&quot;' value='Had Syphilis' />
+        </aliases>
+      </column>
+      <column aggregation='CountD' datatype='string' name='[Smokes (packs/year)]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' name='[Smokes (years)]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='risk_factors.csv' datatype='table' name='[__tableau_internal_object_id__].[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]' role='measure' type='quantitative' />
+      <column-instance column='[Biopsy]' derivation='None' name='[none:Biopsy:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Age]' derivation='Sum' name='[sum:Age:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Biopsy]' derivation='Sum' name='[sum:Biopsy:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Citology]' derivation='Sum' name='[sum:Citology:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='es_ES' class='hyper' dbname='/Users/ignaciofernandezestebanez/Documents/Mi Repositorio de Tableau/Fuentes de datos/risk_factors.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='06/08/2021 12:34:31 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='risk_factors' increment-value='%null%' refresh-type='create' rows-inserted='858' timestamp-start='2021-06-08 12:34:31.046' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>858</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age</remote-alias>
+              <ordinal>1</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>44</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Number of sexual partners</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Number of sexual partners]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Number of sexual partners</remote-alias>
+              <ordinal>2</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>First sexual intercourse</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[First sexual intercourse]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>First sexual intercourse</remote-alias>
+              <ordinal>3</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Num of pregnancies</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Num of pregnancies]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Num of pregnancies</remote-alias>
+              <ordinal>4</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Smokes</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Smokes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Smokes</remote-alias>
+              <ordinal>5</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Smokes (years)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Smokes (years)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Smokes (years)</remote-alias>
+              <ordinal>6</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Smokes (packs/year)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Smokes (packs/year)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Smokes (packs/year)</remote-alias>
+              <ordinal>7</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>63</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hormonal Contraceptives</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Hormonal Contraceptives]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hormonal Contraceptives</remote-alias>
+              <ordinal>8</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hormonal Contraceptives (years)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Hormonal Contraceptives (years)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hormonal Contraceptives (years)</remote-alias>
+              <ordinal>9</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>41</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IUD</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[IUD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IUD</remote-alias>
+              <ordinal>10</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IUD (years)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[IUD (years)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IUD (years)</remote-alias>
+              <ordinal>11</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>27</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STDs</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STDs]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STDs</remote-alias>
+              <ordinal>12</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STDs (number)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STDs (number)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STDs (number)</remote-alias>
+              <ordinal>13</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STDs:condylomatosis</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STDs:condylomatosis]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STDs:condylomatosis</remote-alias>
+              <ordinal>14</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STDs:cervical condylomatosis</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STDs:cervical condylomatosis]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STDs:cervical condylomatosis</remote-alias>
+              <ordinal>15</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STDs:vaginal condylomatosis</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STDs:vaginal condylomatosis]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STDs:vaginal condylomatosis</remote-alias>
+              <ordinal>16</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STDs:vulvo-perineal condylomatosis</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STDs:vulvo-perineal condylomatosis]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STDs:vulvo-perineal condylomatosis</remote-alias>
+              <ordinal>17</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STDs:syphilis</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STDs:syphilis]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STDs:syphilis</remote-alias>
+              <ordinal>18</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STDs:pelvic inflammatory disease</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STDs:pelvic inflammatory disease]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STDs:pelvic inflammatory disease</remote-alias>
+              <ordinal>19</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STDs:genital herpes</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STDs:genital herpes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STDs:genital herpes</remote-alias>
+              <ordinal>20</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STDs:molluscum contagiosum</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STDs:molluscum contagiosum]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STDs:molluscum contagiosum</remote-alias>
+              <ordinal>21</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STDs:AIDS</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STDs:AIDS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STDs:AIDS</remote-alias>
+              <ordinal>22</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STDs:HIV</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STDs:HIV]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STDs:HIV</remote-alias>
+              <ordinal>23</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STDs:Hepatitis B</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STDs:Hepatitis B]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STDs:Hepatitis B</remote-alias>
+              <ordinal>24</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STDs:HPV</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STDs:HPV]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STDs:HPV</remote-alias>
+              <ordinal>25</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STDs: Number of diagnosis</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[STDs: Number of diagnosis]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STDs: Number of diagnosis</remote-alias>
+              <ordinal>26</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STDs: Time since first diagnosis</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STDs: Time since first diagnosis]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STDs: Time since first diagnosis</remote-alias>
+              <ordinal>27</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STDs: Time since last diagnosis</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STDs: Time since last diagnosis]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STDs: Time since last diagnosis</remote-alias>
+              <ordinal>28</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Dx:Cancer</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Dx:Cancer]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Dx:Cancer</remote-alias>
+              <ordinal>29</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Dx:CIN</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Dx:CIN]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Dx:CIN</remote-alias>
+              <ordinal>30</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Dx:HPV</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Dx:HPV]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Dx:HPV</remote-alias>
+              <ordinal>31</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Dx</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Dx]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Dx</remote-alias>
+              <ordinal>32</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hinselmann</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Hinselmann]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hinselmann</remote-alias>
+              <ordinal>33</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Schiller</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Schiller]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Schiller</remote-alias>
+              <ordinal>34</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Citology</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Citology]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Citology</remote-alias>
+              <ordinal>35</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Biopsy</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Biopsy]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Biopsy</remote-alias>
+              <ordinal>36</ordinal>
+              <family>risk_factors.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[sum:Age:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[sum:Citology:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.05z8b7e0rfstv01h02r6t1f1yxzi]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[sum:Biopsy:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Biopsy:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>1</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;España&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='risk_factors.csv' id='risk_factors.csv_38B2BF719C3447008F35D33DAADA499D'>
+            <properties context=''>
+              <relation connection='textscan.0827f150eiguhw12uiaz71t9b6pc' name='risk_factors.csv' table='[risk_factors#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='es_ES' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='Age' ordinal='1' />
+                  <column datatype='integer' name='Number of sexual partners' ordinal='2' />
+                  <column datatype='integer' name='First sexual intercourse' ordinal='3' />
+                  <column datatype='string' name='Num of pregnancies' ordinal='4' />
+                  <column datatype='string' name='Smokes' ordinal='5' />
+                  <column datatype='integer' name='Smokes (years)' ordinal='6' />
+                  <column datatype='string' name='Smokes (packs/year)' ordinal='7' />
+                  <column datatype='string' name='Hormonal Contraceptives' ordinal='8' />
+                  <column datatype='string' name='Hormonal Contraceptives (years)' ordinal='9' />
+                  <column datatype='string' name='IUD' ordinal='10' />
+                  <column datatype='string' name='IUD (years)' ordinal='11' />
+                  <column datatype='string' name='STDs' ordinal='12' />
+                  <column datatype='string' name='STDs (number)' ordinal='13' />
+                  <column datatype='string' name='STDs:condylomatosis' ordinal='14' />
+                  <column datatype='string' name='STDs:cervical condylomatosis' ordinal='15' />
+                  <column datatype='string' name='STDs:vaginal condylomatosis' ordinal='16' />
+                  <column datatype='string' name='STDs:vulvo-perineal condylomatosis' ordinal='17' />
+                  <column datatype='string' name='STDs:syphilis' ordinal='18' />
+                  <column datatype='string' name='STDs:pelvic inflammatory disease' ordinal='19' />
+                  <column datatype='string' name='STDs:genital herpes' ordinal='20' />
+                  <column datatype='string' name='STDs:molluscum contagiosum' ordinal='21' />
+                  <column datatype='string' name='STDs:AIDS' ordinal='22' />
+                  <column datatype='string' name='STDs:HIV' ordinal='23' />
+                  <column datatype='string' name='STDs:Hepatitis B' ordinal='24' />
+                  <column datatype='string' name='STDs:HPV' ordinal='25' />
+                  <column datatype='integer' name='STDs: Number of diagnosis' ordinal='26' />
+                  <column datatype='string' name='STDs: Time since first diagnosis' ordinal='27' />
+                  <column datatype='string' name='STDs: Time since last diagnosis' ordinal='28' />
+                  <column datatype='integer' name='Dx:Cancer' ordinal='29' />
+                  <column datatype='integer' name='Dx:CIN' ordinal='30' />
+                  <column datatype='integer' name='Dx:HPV' ordinal='31' />
+                  <column datatype='integer' name='Dx' ordinal='32' />
+                  <column datatype='integer' name='Hinselmann' ordinal='33' />
+                  <column datatype='integer' name='Schiller' ordinal='34' />
+                  <column datatype='integer' name='Citology' ordinal='35' />
+                  <column datatype='integer' name='Biopsy' ordinal='36' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource inline='true' name='Clipboard_20210607T235535' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='risk_factors' name='textscan.0u4hvhx06eos3m1bs0e1t0ud830j'>
+            <connection class='textscan' directory='/Users/ignaciofernandezestebanez/Downloads' filename='risk_factors.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+      </connection>
+      <aliases enabled='yes' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;España&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph />
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Casos por Edad'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>CASOS CÁNCER DE CERVIX POR EDAD</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='risk_factors' name='federated.05z8b7e0rfstv01h02r6t1f1yxzi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05z8b7e0rfstv01h02r6t1f1yxzi'>
+            <column aggregation='Sum' datatype='integer' name='[Age]' role='dimension' type='ordinal' />
+            <column aggregation='Sum' datatype='integer' name='[Biopsy]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='0' value='No Cervical Cancer' />
+                <alias key='1' value='Cervical Cancer' />
+              </aliases>
+            </column>
+            <_.fcp.ObjectModelTableType.false...column caption='risk_factors.csv' datatype='integer' name='[__tableau_internal_object_id__].[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:risk_factors.csv_38B2BF719C3447008F35D33DAADA499D:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='risk_factors.csv' datatype='table' name='[__tableau_internal_object_id__].[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]' role='measure' type='quantitative' />
+            <column-instance column='[Age]' derivation='None' name='[none:Age:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Biopsy]' derivation='None' name='[none:Biopsy:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[__tableau_internal_object_id__].[cnt:risk_factors.csv_38B2BF719C3447008F35D33DAADA499D:qk]' scope='rows' value='Biopsias' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Biopsy:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[__tableau_internal_object_id__].[cnt:risk_factors.csv_38B2BF719C3447008F35D33DAADA499D:qk]</rows>
+        <cols>[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Age:ok]</cols>
+      </table>
+      <simple-id uuid='{AF77D1A5-7CE9-404C-870C-B288B09344E0}' />
+    </worksheet>
+    <worksheet name='Contraceptives'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='risk_factors' name='federated.05z8b7e0rfstv01h02r6t1f1yxzi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05z8b7e0rfstv01h02r6t1f1yxzi'>
+            <column aggregation='Sum' datatype='integer' name='[Biopsy]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='0' value='No Cervical Cancer' />
+                <alias key='1' value='Cervical Cancer' />
+              </aliases>
+            </column>
+            <column datatype='string' name='[Hormonal Contraceptives]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='risk_factors.csv' datatype='integer' name='[__tableau_internal_object_id__].[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:risk_factors.csv_38B2BF719C3447008F35D33DAADA499D:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='risk_factors.csv' datatype='table' name='[__tableau_internal_object_id__].[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]' role='measure' type='quantitative' />
+            <column-instance column='[Biopsy]' derivation='None' name='[none:Biopsy:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Hormonal Contraceptives]' derivation='None' name='[none:Hormonal Contraceptives:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Biopsy:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[__tableau_internal_object_id__].[cnt:risk_factors.csv_38B2BF719C3447008F35D33DAADA499D:qk]</rows>
+        <cols>[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Hormonal Contraceptives:nk]</cols>
+      </table>
+      <simple-id uuid='{A8AC7830-774A-41B4-899E-4EF9E75E33C1}' />
+    </worksheet>
+    <worksheet name='Factores Riesgo'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>MAPA DE FACTORES DE RIESGO</run>
+            <run>Æ&#10;</run>
+            <run fontname='STIXIntegralsSm' fontsize='10'>Existen factores de riesgo identificados por los expertos para detectar y prevenir el cáncer de cervix. Entre estos factores destaca un número elevado de parejas sexuales, haber tomado anticonceptivos, ser fumadora o haber padecido  enfermedades de transmisión sexual.</run>
+            <run>Æ&#10;&#10;</run>
+            <run fontname='STIXIntegralsSm' fontsize='10'>El siguiente mapa de calor identifica los factores de riesgo identificados entre las pacientes detectadas en el estudio.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='risk_factors' name='federated.05z8b7e0rfstv01h02r6t1f1yxzi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05z8b7e0rfstv01h02r6t1f1yxzi'>
+            <column aggregation='Sum' datatype='integer' name='[Age]' role='dimension' type='ordinal' />
+            <column aggregation='Sum' datatype='integer' name='[Biopsy]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='0' value='No Cervical Cancer' />
+                <alias key='1' value='Cervical Cancer' />
+              </aliases>
+            </column>
+            <column datatype='string' name='[Hormonal Contraceptives]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Num of pregnancies]' role='dimension' type='nominal' />
+            <column aggregation='Sum' datatype='integer' name='[Number of sexual partners]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[STDs]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Smokes]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='risk_factors.csv' datatype='integer' name='[__tableau_internal_object_id__].[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:risk_factors.csv_38B2BF719C3447008F35D33DAADA499D:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='risk_factors.csv' datatype='table' name='[__tableau_internal_object_id__].[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]' role='measure' type='quantitative' />
+            <column-instance column='[Age]' derivation='None' name='[none:Age:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Biopsy]' derivation='None' name='[none:Biopsy:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Hormonal Contraceptives]' derivation='None' name='[none:Hormonal Contraceptives:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Num of pregnancies]' derivation='None' name='[none:Num of pregnancies:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of sexual partners]' derivation='None' name='[none:Number of sexual partners:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[STDs]' derivation='None' name='[none:STDs:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Smokes]' derivation='None' name='[none:Smokes:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Age:ok]'>
+            <groupfilter function='level-members' level='[none:Age:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Biopsy:ok]'>
+            <groupfilter function='member' level='[none:Biopsy:ok]' member='1' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Smokes:nk]'>
+            <groupfilter from='&quot;0.0&quot;' function='range' level='[none:Smokes:nk]' to='&quot;NaN&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Biopsy:ok]</column>
+            <column>[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Age:ok]</column>
+            <column>[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Smokes:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[__tableau_internal_object_id__].[cnt:risk_factors.csv_38B2BF719C3447008F35D33DAADA499D:qk]' />
+              <color column='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[__tableau_internal_object_id__].[cnt:risk_factors.csv_38B2BF719C3447008F35D33DAADA499D:qk]' />
+              <lod column='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Hormonal Contraceptives:nk]' />
+              <text column='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:STDs:nk]' />
+              <text column='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Number of sexual partners:ok]' />
+              <text column='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Num of pregnancies:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Hormonal Contraceptives:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Hormonal Contraceptives:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Num of pregnancies:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Num of pregnancies:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Number of sexual partners:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Number of sexual partners:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>STDs:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:STDs:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#787878'>Biopsia Positiva</run>
+                <run fontcolor='#787878'>:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[__tableau_internal_object_id__].[cnt:risk_factors.csv_38B2BF719C3447008F35D33DAADA499D:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run><![CDATA[Embarazos: <[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Num of pregnancies:nk]>
+Parejas Sexuales: <[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Number of sexual partners:ok]>
+]]></run>
+                <run fontsize='10'>Anticonceptivos:</run>
+                <run fontcolor='#333333' fontsize='10'>Æ </run>
+                <run bold='true' fontcolor='#333333' fontsize='10'><![CDATA[<[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Hormonal Contraceptives:nk]>]]></run>
+                <run><![CDATA[
+STDs: <[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:STDs:nk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{5FBEB869-A99E-4AE0-9482-17D964A2251C}' />
+    </worksheet>
+    <worksheet name='Número de parejas sexuales'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='risk_factors' name='federated.05z8b7e0rfstv01h02r6t1f1yxzi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05z8b7e0rfstv01h02r6t1f1yxzi'>
+            <column aggregation='Sum' datatype='integer' name='[Age]' role='dimension' type='ordinal' />
+            <column aggregation='Sum' datatype='integer' name='[Biopsy]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='0' value='No Cervical Cancer' />
+                <alias key='1' value='Cervical Cancer' />
+              </aliases>
+            </column>
+            <column aggregation='Sum' datatype='integer' name='[Number of sexual partners]' role='dimension' type='ordinal' />
+            <_.fcp.ObjectModelTableType.false...column caption='risk_factors.csv' datatype='integer' name='[__tableau_internal_object_id__].[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:risk_factors.csv_38B2BF719C3447008F35D33DAADA499D:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='risk_factors.csv' datatype='table' name='[__tableau_internal_object_id__].[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]' role='measure' type='quantitative' />
+            <column-instance column='[Age]' derivation='None' name='[none:Age:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Biopsy]' derivation='None' name='[none:Biopsy:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Number of sexual partners]' derivation='None' name='[none:Number of sexual partners:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Age:ok]'>
+            <groupfilter function='level-members' level='[none:Age:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Biopsy:ok]'>
+            <groupfilter function='member' level='[none:Biopsy:ok]' member='1' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Biopsy:ok]</column>
+            <column>[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Age:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[__tableau_internal_object_id__].[cnt:risk_factors.csv_38B2BF719C3447008F35D33DAADA499D:qk]' />
+              <color column='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[__tableau_internal_object_id__].[cnt:risk_factors.csv_38B2BF719C3447008F35D33DAADA499D:qk]' />
+              <lod column='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Number of sexual partners:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{EE209F0C-3C67-4A59-8F3C-FF0D69EE5C6F}' />
+    </worksheet>
+    <worksheet name='Relación STDs - Biopsy'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='risk_factors' name='federated.05z8b7e0rfstv01h02r6t1f1yxzi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05z8b7e0rfstv01h02r6t1f1yxzi'>
+            <column aggregation='Sum' datatype='integer' name='[Biopsy]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='0' value='No Cervical Cancer' />
+                <alias key='1' value='Cervical Cancer' />
+              </aliases>
+            </column>
+            <column datatype='string' name='[STDs]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='risk_factors.csv' datatype='integer' name='[__tableau_internal_object_id__].[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:risk_factors.csv_38B2BF719C3447008F35D33DAADA499D:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='risk_factors.csv' datatype='table' name='[__tableau_internal_object_id__].[risk_factors.csv_38B2BF719C3447008F35D33DAADA499D]' role='measure' type='quantitative' />
+            <column-instance column='[Biopsy]' derivation='None' name='[none:Biopsy:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[STDs]' derivation='None' name='[none:STDs:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[__tableau_internal_object_id__].[cnt:risk_factors.csv_38B2BF719C3447008F35D33DAADA499D:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[__tableau_internal_object_id__].[cnt:risk_factors.csv_38B2BF719C3447008F35D33DAADA499D:qk]' />
+              <text column='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[__tableau_internal_object_id__].[cnt:risk_factors.csv_38B2BF719C3447008F35D33DAADA499D:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Biopsy:ok]</rows>
+        <cols>[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:STDs:nk]</cols>
+      </table>
+      <simple-id uuid='{C41ADCBC-6367-44A0-B6E9-4A7DDB9ACCD2}' />
+    </worksheet>
+    <worksheet name='Syphilis vs Cervical'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>DIAGNÓSTICO DE SÍFILIS Y CÁNCER DE CERVIX</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='risk_factors' name='federated.05z8b7e0rfstv01h02r6t1f1yxzi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05z8b7e0rfstv01h02r6t1f1yxzi'>
+            <column aggregation='Sum' datatype='integer' name='[Biopsy]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='0' value='No Cervical Cancer' />
+                <alias key='1' value='Cervical Cancer' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[STDs: Number of diagnosis]' role='measure' type='quantitative' />
+            <column datatype='string' name='[STDs: Time since first diagnosis]' role='dimension' type='nominal' />
+            <column datatype='string' name='[STDs:cervical condylomatosis]' role='dimension' type='nominal' />
+            <column datatype='string' name='[STDs:syphilis]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;0.0&quot;' value='No Syphilis' />
+                <alias key='&quot;1.0&quot;' value='Had Syphilis' />
+              </aliases>
+            </column>
+            <column-instance column='[Biopsy]' derivation='None' name='[none:Biopsy:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[STDs: Time since first diagnosis]' derivation='None' name='[none:STDs: Time since first diagnosis:nk]' pivot='key' type='nominal' />
+            <column-instance column='[STDs:cervical condylomatosis]' derivation='None' name='[none:STDs:cervical condylomatosis:nk]' pivot='key' type='nominal' />
+            <column-instance column='[STDs:syphilis]' derivation='None' name='[none:STDs:syphilis:nk]' pivot='key' type='nominal' />
+            <column-instance column='[STDs: Number of diagnosis]' derivation='Sum' name='[sum:STDs: Number of diagnosis:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:STDs:cervical condylomatosis:nk]'>
+            <groupfilter function='member' level='[none:STDs:cervical condylomatosis:nk]' member='&quot;0.0&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:STDs:cervical condylomatosis:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='cell-w' value='20' />
+            <format attr='cell-h' value='20' />
+            <format attr='cell' value='20' />
+            <format attr='cell-q' value='100' />
+            <format attr='width' field='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:STDs:syphilis:nk]' value='63' />
+            <format attr='width' field='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Biopsy:ok]' value='150' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:STDs: Time since first diagnosis:nk]' value='196' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[sum:STDs: Number of diagnosis:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.7999999523162842' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:STDs: Time since first diagnosis:nk]</rows>
+        <cols>([federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:STDs:syphilis:nk] / [federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Biopsy:ok])</cols>
+      </table>
+      <simple-id uuid='{6AA9F96D-E666-4045-9480-41706A81FACD}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='PRA'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Phosphate' fontsize='36'>Factores de Riesgo en la prevención del Cáncer de CerviX</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='dash-text'>
+          <format attr='wrap' id='dash-text_20' value='auto' />
+          <format attr='vertical-align' id='dash-text_20' value='bottom' />
+        </style-rule>
+      </style>
+      <size maxheight='2000' maxwidth='1000' minheight='2000' minwidth='1000' sizing-mode='fixed' />
+      <datasources>
+        <datasource caption='risk_factors' name='federated.05z8b7e0rfstv01h02r6t1f1yxzi' />
+      </datasources>
+      <datasource-dependencies datasource='federated.05z8b7e0rfstv01h02r6t1f1yxzi'>
+        <column aggregation='Sum' datatype='integer' name='[Age]' role='dimension' type='ordinal' />
+        <column-instance column='[Age]' derivation='None' name='[none:Age:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='10' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='99200' id='15' param='vert' w='98400' x='800' y='400'>
+            <zone _.fcp.SetMembershipControl.false...type='title' _.fcp.SetMembershipControl.true...type-v2='title' h='6300' id='16' w='98400' x='800' y='400'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='92900' id='13' param='vert' w='98400' x='800' y='6700'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='92900' id='11' w='98400' x='800' y='6700' />
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='43750' id='5' name='Factores Riesgo' w='75900' x='2800' y='27700' />
+        <zone h='17800' id='17' name='Casos por Edad' w='68900' x='29100' y='7550' />
+        <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='3500' id='18' name='Casos por Edad' pane-specification-id='0' param='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Biopsy:ok]' w='14000' x='83500' y='15750' />
+        <zone h='23750' id='19' name='Syphilis vs Cervical' w='69900' x='6100' y='72300' />
+        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='14750' id='20' w='25300' x='2100' y='9700'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#434343' fontname='STIXIntegralsSm' fontsize='10'>El cáncer de cérvix es el segundo más común entre las mujeres, después del de mama, con alrededor de 2.000 casos detectados en España en 2020. </run>
+            <run fontalignment='1'>Æ&#10;&#10;</run>
+            <run fontalignment='1' fontcolor='#434343' fontname='STIXIntegralsSm' fontsize='10'>Durante los últimos años ha ido descendiendo el número de casos significativamente gracias a las pruebas de diagnostico precoz. Sin embargo, sigue teniendo un fuerte impacto en países en vías de desarrollo, con más de 600.000 casos detectados en todo el mundo durante 2020.</run>
+            <run fontalignment='1'>Æ&#10;&#10;</run>
+          </formatted-text>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#faf5f0' />
+          </zone-style>
+        </zone>
+        <zone _.fcp.SetMembershipControl.false...type='dashboard-object' _.fcp.SetMembershipControl.true...type-v2='dashboard-object' h='2200' id='21' w='14100' x='84000' y='97050'>
+          <button action='tabdoc:goto-sheet window-id=&quot;{04440CD5-16F0-430B-9653-95C17160FC1D}&quot;' button-type='text'>
+            <button-visual-state>
+              <caption>Volver Inicio</caption>
+              <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+              <format attr='background-color' value='#f28e2b' />
+            </button-visual-state>
+          </button>
+        </zone>
+        <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='35500' id='22' name='Factores Riesgo' param='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Age:ok]' values='database' w='12400' x='80400' y='35650' />
+        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='13600' id='23' w='20300' x='76900' y='74350'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000'>La detección temprana del cáncer de cervix  es crucial para poder tratarlo a tiempo. La prueba de citología vaginal o prueba de Papanicolaou , permite detectar las celulas pre-cancerosas. Una biopsia permite confimar el diagnóstico.</run>
+            <run fontalignment='1'>Æ&#10;&#10;</run>
+            <run fontalignment='1' fontcolor='#000000'>Haber padecido  enfermedades de transmisión sexual como la sífilis, el VIH o  herpes genitales, son factores de riesgo que ayudan a predecir un posible  desarrollo de cáncer cervical.</run>
+          </formatted-text>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#f6eee3' />
+          </zone-style>
+        </zone>
+        <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' h='4600' id='24' is-scaled='1' param='/Users/ignaciofernandezestebanez/Downloads/cancer_cervix_nuevo_test.jpg' w='19600' x='78700' y='4050' />
+        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='2100' id='27' w='64900' x='6000' y='96600'>
+          <formatted-text>
+            <run bold='true'>Fuente: </run>
+            <run>Dataset de Kagle con datos extraídos de la UCI en USA con 850 pacientes examinadas con biopsia. </run>
+            <run auto-url='true' hyperlink='tabdoc:load-url url=&amp;quot;https://www.kaggle.com/loveall/cervical-cancer-risk-classification&amp;quot;'>https://www.kaggle.com/loveall/cervical-cancer-risk-classification</run>
+          </formatted-text>
+          <zone-style>
+            <format attr='border-color' value='#898989' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontname='Phosphate' fontsize='36'>Factores de Riesgo en la prevención del Cáncer de CerviX</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1450' minheight='1450' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='35' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='99200' id='34' param='vert' w='98400' x='800' y='400'>
+                <zone _.fcp.SetMembershipControl.false...type='title' _.fcp.SetMembershipControl.true...type-v2='title' h='6300' id='16' w='98400' x='800' y='400'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' fixed-size='92' h='4600' id='24' is-fixed='true' is-scaled='1' param='/Users/ignaciofernandezestebanez/Downloads/cancer_cervix_nuevo_test.jpg' w='19600' x='78700' y='4050'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='17800' id='17' is-fixed='true' name='Casos por Edad' w='68900' x='29100' y='7550'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='3500' id='18' name='Casos por Edad' pane-specification-id='0' param='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Biopsy:ok]' w='14000' x='83500' y='15750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='14750' id='20' w='25300' x='2100' y='9700'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#434343' fontname='STIXIntegralsSm' fontsize='10'>El cáncer de cérvix es el segundo más común entre las mujeres, después del de mama, con alrededor de 2.000 casos detectados en España en 2020. </run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                    <run fontalignment='1' fontcolor='#434343' fontname='STIXIntegralsSm' fontsize='10'>Durante los últimos años ha ido descendiendo el número de casos significativamente gracias a las pruebas de diagnostico precoz. Sin embargo, sigue teniendo un fuerte impacto en países en vías de desarrollo, con más de 600.000 casos detectados en todo el mundo durante 2020.</run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#faf5f0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='35500' id='22' mode='checkdropdown' name='Factores Riesgo' param='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Age:ok]' values='database' w='12400' x='80400' y='35650'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='43750' id='5' is-fixed='true' name='Factores Riesgo' w='75900' x='2800' y='27700'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='23750' id='19' is-fixed='true' name='Syphilis vs Cervical' w='69900' x='6100' y='72300'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='13600' id='23' w='20300' x='76900' y='74350'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#000000'>La detección temprana del cáncer de cervix  es crucial para poder tratarlo a tiempo. La prueba de citología vaginal o prueba de Papanicolaou , permite detectar las celulas pre-cancerosas. Una biopsia permite confimar el diagnóstico.</run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                    <run fontalignment='1' fontcolor='#000000'>Haber padecido  enfermedades de transmisión sexual como la sífilis, el VIH o  herpes genitales, son factores de riesgo que ayudan a predecir un posible  desarrollo de cáncer cervical.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f6eee3' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='2100' id='27' w='64900' x='6000' y='96600'>
+                  <formatted-text>
+                    <run bold='true'>Fuente: </run>
+                    <run>Dataset de Kagle con datos extraídos de la UCI en USA con 850 pacientes examinadas con biopsia. </run>
+                    <run auto-url='true' hyperlink='tabdoc:load-url url=&amp;quot;https://www.kaggle.com/loveall/cervical-cancer-risk-classification&amp;quot;'>https://www.kaggle.com/loveall/cervical-cancer-risk-classification</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#898989' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='dashboard-object' _.fcp.SetMembershipControl.true...type-v2='dashboard-object' h='2200' id='21' w='14100' x='84000' y='97050'>
+                  <button action='tabdoc:goto-sheet window-id=&quot;{04440CD5-16F0-430B-9653-95C17160FC1D}&quot;' button-type='text'>
+                    <button-visual-state>
+                      <caption>Volver Inicio</caption>
+                      <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                      <format attr='background-color' value='#f28e2b' />
+                    </button-visual-state>
+                  </button>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{EA2C3EE5-B547-48DA-B77E-E5205679125F}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='51'>
+    <window class='worksheet' name='Número de parejas sexuales'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[__tableau_internal_object_id__].[cnt:risk_factors.csv_38B2BF719C3447008F35D33DAADA499D:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B81C978C-AA3C-4DC7-805B-D9AC74AF7D38}' />
+    </window>
+    <window class='worksheet' name='Contraceptives'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Biopsy:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AE094FC1-75DA-42BD-9646-579CAC0E67D5}' />
+    </window>
+    <window class='worksheet' name='Relación STDs - Biopsy'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[__tableau_internal_object_id__].[cnt:risk_factors.csv_38B2BF719C3447008F35D33DAADA499D:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0CAEDABA-50FE-41F6-B9A3-C3017580BE3C}' />
+    </window>
+    <window class='worksheet' name='Factores Riesgo'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[__tableau_internal_object_id__].[cnt:risk_factors.csv_38B2BF719C3447008F35D33DAADA499D:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F7F9E520-A33E-4B41-9B38-E759B9BF3551}' />
+    </window>
+    <window class='worksheet' name='Casos por Edad'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Biopsy:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{04440CD5-16F0-430B-9653-95C17160FC1D}' />
+    </window>
+    <window class='worksheet' name='Syphilis vs Cervical'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[sum:STDs: Number of diagnosis:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1B31ED9C-A3A2-4E18-B0AD-AC3A030B02C6}' />
+    </window>
+    <window class='dashboard' maximized='true' name='PRA'>
+      <viewpoints>
+        <viewpoint name='Casos por Edad'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.05z8b7e0rfstv01h02r6t1f1yxzi].[none:Biopsy:ok]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Factores Riesgo'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Syphilis vs Cervical' />
+      </viewpoints>
+      <active id='-1' />
+      <device-preview visible='true' />
+      <simple-id uuid='{43EF7611-4096-4C07-A4B3-98DA3988DE84}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Casos por Edad' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAYeklEQVR4nO2da2wc13XH//PYnX3vkiKXpJakRJmSJctyZEu2HMmu1aQOEgdx2sRB0cRI
+      miJp0DQx0qI10rRInaIBChRIkzYfWrQN0gBpijQBmj4Sp41bJ3FjB7brF02LpCRyRZHikvt+
+      z+zM3H5Y7lDDnaU09HKXyzk/wLDmcGbuuXfmP/fuzDn3cowxBoJwKHy3HSCIbkICIBwNCYBw
+      NCQAwjZPPfUUZmZmoOs6FEWBqqpQVbXbbm0LsdsOEL2FrutYWlpCNpvF9PQ04vE4/H4/GGP4
+      +Mc/Do7juu2iLagHIGyRSqVQLBaxsrKCWq0GnudRLBYRiUS67dq24Og1KGEHRVEAALVaDa+/
+      /jpeeeUVPPLII1AUBdFotOd6gLYJgDHWc5Un3hy6rgMAeL53BxJt81zTtHadiugReJ7v6Zsf
+      oN8AhMMhARCOhgRAOBrb3wHi8TgAwOfzIZ1OY3JyEoIgtN0xgugEtgWwvLyM48eP49KlS4jF
+      YuB53ngb0Pg/QfQKtgVw9OhRTE1N4cSJE5idnYXP54PP5wNjDPRJgeg1bAsgmUxi//79KBQK
+      8Pl88Hq9Ri9AQyGi12jbhzBVVSGKzgwt0hkDNrUiz9NHwV7AmXdsm/niN36KF2aWjW2/x4V/
+      /Pz7u+gRcbPQa1DC0ZAACEdDAiAcDQmAcDQkAMLRkAAIR0MCIBwNCYBwNCQAwtFsWwCMMYr+
+      JHoe26EQL7zwAgYHByHLMvL5PO644w643e6d8I0gdhzbAhBFEZlMBi6XC8PDw6hUKkY0aK1W
+      2wkfb4ofv3IFM4spk+1j7z4JvgMzVTDW3BN2sy2Im8e2ACRJQj6fh8vlwtWrV3HnnXdCFMWu
+      R4O+EU/iRy/Om2yfePg0RGHnf+ZwXHMZLpdrx8sl3jy279hbb73VmP+HcgCIXse2AK6fB4Zu
+      fqLXodeghKMhARCOhgRAOBoSAOFoSACEoyEBEI6GBEA4GhIA4WhIAISjoYmxNlGqKHjsL580
+      2d5+agIf/KUTXfKI2ElsC6CRB8BxnBELtJfWBmMMSObKJluponTJG2KnsS2ApaUlxONxY1Zo
+      Wh+A6GVsCUDTNFy6dAmCICAajSIej2N8fBwul6vr+QC6xRy/qqqC6da90/y1LP72P1422d53
+      /604dmDA8txb1Y3yAXoXWwLgOA4nT57E0tISarUa3G43eJ7fFfkAVokvoii2zAeQVYbZTQk0
+      xWoNotBcB57jtozvp3yA3sXWHcvzPMLhMMLhMBhjOHDgwJ4a/xPOY9uP7F658Z+/sIwfvXDZ
+      ZPv1d72lS94Qu409/xp0JV3Ac9NXTbZHzt/WJW+I3QZ9CCMcDQmAcDQkAMLRkAAIR0MCIBwN
+      CYBwNCQAwtGQAAhHQwIgHI3tL8GyLCMejyMUCiGdTuPo0aOm6RIJopewLYDZ2VlwHIdkMolg
+      MIhisQi/3w9d16Gq6k74eFO0Coe2WsRD0zTomtZ8Dk2HqjXXQWdsy7qxFmUTux9bAqjVaqhU
+      Kshms4hGo5BlGYIggOd5MMa6mhhjFQ4tCAJ4i1BlQeDBW4RJ8zxvWQee47asm1VcICUJ9Qa2
+      BOByuXD33XejVCqBMYZMJgOfz2dEhu62CFGO4wBLlzhY/oEDOOsDblC35r/ttrYgrLE9BOI4
+      DoFAAAAQDAbb7tBeIluoIleqmmyxwRDkmopk1px3PNjnh0+iJJpOs+fDobvJvz07i+88PW2y
+      /d3j78HMlRT+/J9+ZrL/0Yfvx91HY510jwC9BiUcDvUAuwhdZyhVzVOwuF0iJBf9oN4pSAC7
+      iOVUAb/9F9832R598AQ+8IvHu+TR3oeGQISjIQEQjoaGQD3OZ//mR7i4lDa2YwNBfOWxd3XR
+      o96CBNDj1FQdNVU3bRM3Dw2BCEdDAiAcjW0BMMYsox8Johex/Rtgbm4O1WoVfr8fqqrS9OhE
+      T2NbAF6vF4lEAqIoQpZlsPVY+U5Nj/7T164iV9wIMAv43Dj/lvHW+QCaVT6ACs0q7n+LfIDt
+      TI9ulYugqho0i1wETdMscwi0G7QrA9u0vfXU7AsrOUzNr5ls990xhohfannMXsaWABrDH47j
+      0N/fj6tXr0KWZaM36MT06P/+7CwuLWWM7dHBEB48fUvL6dGt4v4FQYRVp8ULfFunR7fKlBNF
+      wbLHFATBsv0Ent+67E2h2By2npp9ZjGNrz/5isl2fCKKwUig5TF7Gdt3bCQSwcDAAHieh9/v
+      h8/n2wm/CKIj2F4gIxQKGdsej6ftDhFEJ6HXoISjIQEQjoZCIXqEqflV0/eXsN+D8aFwy/2v
+      ruWRKVRMtuMT0R3zr1chAfQIf/y1p6Fe90r33IkxPP5r51ru/y8/vYD/2rQ01Hf+5AM75l+v
+      QkMgwtGQAAhHQwIgHA0JgHA0LQXQCHuwimchiL1Cy7dAly9fRjweR7VaxUMPPdRJnwiiY7QU
+      QCAQAGMMBw4cMNlXV1fhcrng8XhQLBYxMDBA82ASPUtLAeTzeUxPT6NYLOL4cfO8NBcuXEAg
+      EKCAOKLnsRQAYww+nw/33HMPcrmcya7rOhhj4HkewWAQqqp2NB9gU/g72HqsfifyAT7z1f9E
+      Kr/xdfXY+AA+9+i5ruQDML3uU6t8AOuyW6+X0JFrtwuxFICiKMhkMkin0xgaGjL9LZ1OIxgM
+      IhwOI5VKIRaLQRCEjuUDbJ6JnFuP1e9EPkBV0VCRN25SRdXgcrm6kg/A8XWfWuUDWJctWtoF
+      Qdgyh2AvY3nHSpKEYDBoLIPUgOM43Hbbbcb26OjozntIEDtIy0e2IAjI5XIYGRnppD/EHuZP
+      v/ETLCcLxvZoNITPPXp/Fz3aQgC6rqNarSKfz3fSH2IPk8iUsHSdANy7YNbrlh/CXC4XGGNY
+      XV1FPB7vpE9Ej1CRayhXN/6rqc0/7nc7LXuAcrkMr9cLQRCavgUQBAB8+ss/wFpuY6mnjz50
+      Er9839EuemSflj2A1+uFpmnw+/2d9IcgOoqlAGRZRjqdhiiK9JGL2NNYDoFEUcTCwgJEUUS1
+      WrXahdhjTC+s4Qtf/7HJ9omHT+Ftd010yaPOYCmAarUKTdOQSqUgy3KnfSK6gM4Yqor5S7Rq
+      8RV9r2EpAI/Hg9tvvx2qqhprAhPEXsRSAIIg4JZbbum0LwTRcbY1PTolyRB7hW1Nj55IJBAM
+      BiFJEo4cOULToxM9i20BuN1u7N+/H5Ik4cqVK/WQ3PVeYa+HQ29eGIQZ9t4Ph7by6UbXdHOL
+      69oN7oEW7ddNbAsgHo9jdHQUmtYIBeYgiqIjwqE3Z75xhr33w6EFi0V/+BtOzb5pf2Hr/dGi
+      /bqJ7Tv2gQceAFBX7/j4OKVDEj3Nth/ZdOMTVjDG8KVvP2eyHT84iHeemWx5zPefm8Mb8aSx
+      zQH43V996065aILmBiXaCgPwk1fM0cMCz20pgAvxpOmYTgqAJsYiHM2u7QH+4clXTG92JkYi
+      OH/yYPccIvYku1YA33vmAjR9QwD3nRgnARBth4ZAhKMhARCOhgRAOBoSAOFouvojmDGGmmqO
+      TREEDoLF53qC2Am6KoCra3l86ss/MNkefccd+MD521ocQRDtxbYAstksGGPwer0olUro7++n
+      sAiiZ7EtAFmWcfnyZQQCAXAcB6/XSzNHED2LbQGkUilMTEwglUq96enR7cSgM7Zup3yAetm7
+      NB/Aqg5G3H+L9tNbtF8nsC2AcrkMSZKMmaPfzPToVnHxrWLQOW7dTvkA9bJ3aT6AVR2MuP8W
+      7ce3aL9OYFsAp0+fNv49NjbWVmcIotPQ+0bC0ZAACEdDAiAcza4NhyZ2BxW5hj/75v+abGdu
+      i+Ghew93yaP2QgIgtkTTGV6+uGKyxQaDXfKm/dAQiHA01AMQu5YXZ5bxzGuLJtuHHjyBgXD7
+      Ig9IAMSuJZ7I4b//b95ke+99t7ZVADQEIhwNCYBwNCQAwtHY/g0wOzuLUCiESqUCRVEwOTlJ
+      06MTPYttAYyPj2N5eRmVSgWqqoIxRuHQezgcWrPwqXGNdjocupWv7QyVti2AdDqNbDaLsbEx
+      LC4uQpZl+P1+CofexF4JhxYsfGpco50Oh27laztDpW0LwO/349ChQ3C73ZiYmKBsMKKnsS2A
+      cDhs/JtufqLXobdAhKMhARCOhgRAOBoSAOFoSACEo6FoUMIRpHJl08dStyggHPCQAAhn8Dtf
+      /SFyJdnYvvPwMJ746HkaAhHOhgRAOBoSAOFobAugWq1CURTIsox0Ot0UIUkQvYTtH8FLS0vg
+      OA6lUgmMMXg8HooJInoW2wKIxWJYXl4Gz/M0PTrlA5jtuzgfoMnX9bJtC2BxcdFYGYamR6d8
+      AJN9F+cDNPm6XrZtARw+vDEl3vj4uG1HCGI3QR/CiJ7jQjyJv/7XF0y2R99xB46M7sPnv/Y/
+      Jvvb7prAw+dubXkuEgDRc5TlGuavZU22YlmBqutN9nS+suW56DsA4WhIAISjIQEQjoYEQDga
+      EgDhaEgAhKMhARCOhr4DbILndBwQr5ls/cJwl7y5MSNiCjVxYw2vIVHeYm9iMySATXg5GV/s
+      +3uTzeX9EIDzXfHnRvxW8HvQ+6aMbT50EMBHuuZPr7HtIVAymcTMzIxlFCFB9Arb7gEWFxcx
+      NjYGnueNMGGr8FUAqKk6yrI5hNXvcVkn0zDW4jzr9qZD6nartBxd1zdH4K4XwSzLZgwtEnwa
+      PjWHHlvZG2VbFd667BZ2tGhXZl12Y/+WZVi2lE2fWIs2Z/UwbSta3Rv181i3n712am23Kput
+      t9+2BTA5OYmZmRl4PB54vd6WjgHAc9OL+NK3f26y/eGj92Go32/hmL2b07DbuoC6ZQx//cK2
+      LsPygjNmT2T61jfVTZ+nccFbld1sbnlT6Vv4xFqIr2UdWrSr1TXauHYt6mD3AbKFr5YtyNj2
+      BZDP5+Hz+eD1eiEIAhhjLVeKsYr35nneMt6b43nL83AcV7db5AMIgtAUqw/UY8d5vtnO8wJ4
+      vrlJeJ6DYJE/YJSxOfaew5Zlcxb14wXrevMt6s036t3Cp6YY+/WyrfIj6vZW18KqPXjwVmXz
+      jfawtt+0rzdov1btZGnnWvjKtfB13b5tAcRiMcRise0eThC7Ase+BTrmiuMbA1802byeLwB4
+      e8tjvtz/V9BdG68cxfDpLfff6/zFvq9Cd228MvZ4fw9A69j73YhjBQAAPGdvRgsOzHQMZ/P4
+      vUZTe3TRl+1CX4IJR+PoHoDoLH8Q/iaU2iVj2x0+AuCdts9zzBXHV/q/YrINSH1QMGT7XCQA
+      omOE+RJ0oWBs83xxW+dxcSr2XXceAJC4GpRtnIuGQISj2TM9wHt9z+C+yA9NNh7vx73SNEYj
+      XzPZY8JdQPP8TW3n7Z4XcXvkWyZbmH8bjrvn8cQmnw6JB1HAbW0r+2HfMzgXedJkE/A+nJGm
+      EdvcHuKdmFf72lZ2uzgnvYaJTb4OCWe2da7Hw99CzbWRMB8KnAJwfu8IICpk0edaNtk41Ltd
+      zya7xCmWX0rbzT4hj+CmskVoCHAVTG6ye/kqzJ36m8NOe3i47Qwedp4+vgjfJl/dXPOMdDfD
+      QXEFzJU2tgXhIIA3MQRaXFzEq6++SsFwRE/zpkIh+vr6UCqVEAqFAABPv7SAn72+aNrvU79y
+      z7bO/1jou2D6hriivnMAzuKD/qdQCG28SfAFYgAe2lYZu40+Po/PhP7ZZJuQRADH8enQd8Gu
+      m7c06j0L4FxnHbwJOLCmOgx7zwO4tyv+3IhtC0DXdWSzWezbt8+wXVnN4efTS6b9fvM92+sh
+      TkmzgL5xwUVxAkD9FZguzRh23r07u+/t4OEUnL6ubgDgFurd9in3LKBvRNSKroOddM0Wm+sg
+      irv36/C2BXD48GEUi0V4vd52+kMQHWXbAvB4PPB4PAA2pt0+fWQYfQHJtJ8k8jg4HMbH3n3S
+      ZI8N+OGVXE32I2P76jNN3/84cF1oLR8Zh6qqEO76CPjyxo8ZzhOCqqrgDr8L4j7zk0bVGTBy
+      F8Rf+KzJrvuigK422RG9HSpcTXZu8Ejdp3s/CaaUN+yBKFRVxYOnJ3ByMmrYRYGv+3Tgfoie
+      faZzaaIPbN+RpjJY5BCYO9Bc9sgd6+3x+9btceeHW7THOyH2H7np9oi6vU3X4vBoHwSONdkP
+      DIXrPp35JJhS2vjD/juhqVrT+fn+ibqvp38DfCW34au3D6qq4oG3jOPwqPktlKqqwOg9zb56
+      +gHB19x+A8cgCVyTrxMj9TKEtz4GqNWNsoPD9XZibVriRdM0y1BYTdPA83xTyGsj/r3VMTtp
+      b8TdW4XV7nTZ1B474+t2269tH8IaOQGVSgWMMWSzWciybBTcsDf2acRjV6tV6LqOarWKYrFo
+      5BWoqoparQZN05DNZg27ruuQZRmKoiCfz0NRlKayc7kcarVak72xf+MGzOfzkGUZlUoFlUrF
+      aNhSqYRSqWT41ahftVpFPp+HqqrIZrNGg9dqNeRyOcOuqioEQTB8byx+0fAVAHK5HBRFQblc
+      RrlcBsdx4HkexWIRlUrFOGej3pVKBcVi0eSDIAhQFAW5XM5UVqP9GtuNv1/vk6qqKBaLpvbI
+      5XKQZRm1Ws1YhILneRQKBZTLZaOshk/lctn4W+PaNepQKpVM171Rh3w+D03TmurQaM9CoWDc
+      N4061Go1FAoFlEol48bPZrOm9rve10qlYtxPjWvX8KVRdsMn4YknnniiXSIolUp4+eWXEYvF
+      cO3aNSwuLmJkZASapuHZZ5/F+Pg4FhYWsLCwgFgsBl3X8eKLLyIcDuP111+HKIoIhULgOA4L
+      CwvIZDJYXV1FsVhEf38/eJ7H2toaLl++jEgkgoWFBSiKgkgkgnw+j6mpKfh8PszNzSGXy2Fo
+      aAiyLOP555/HwMAALl26hLW1NQwP17u/tbU1XLp0CZlMBslkEtFofRizurqK2dlZSJKE+fl5
+      jIyMAADW1tYwPT2NUCiEpaUl6LqOYDCITCaDeDxuiC+ZTGJwcBDFYhFra2tIpVJYXl5GoVDA
+      wMAAFEXB6uoqFhcXEY/HEQwGEQgEoOs6VldXcfHiRSSTSQBAJBIBx3FIJBK4cOECIpEIpqam
+      sG/fPkiShGQyidnZWWSzWeOhE4lEkMvlsLKygvn5edRqNaRSKQwODkKWZVy7dg2JRAKJRAKp
+      VArDw8PQNA2rq6uIx+OoVCooFAro6+sz2mNubg5erxcXL15EX18f3G430uk0XnvtNQSDQbzx
+      xhvYv3+/cY1mZmbQ39+Pp59+GocPHwbHcchkMpiamjIeXpFIBKIoolAoYGFhAblcDteuXUM4
+      HIbH40G1WsXy8jJSqRR0Xcfc3BzGxsagqioSiQSuXLmCpaUlJBIJIzdlbW0Nc3NzSKVSyGQy
+      6O/vhyiKSCQSeOmllwyxCYIAn8/X3lCIQCBg3KiaphmrhYiiiJGREciyjHg8biiT53mMjo4C
+      AMbGxnD16lXjyROLxYyniaZpSKVSAIBoNApJkuD3+6HrurFIRzgcNl7HXp+d5vF4EI1G4fF4
+      oKoqMpmM4VM6ncahQ4fg9Xrh9/uhaRo4jkO5XMaBAwcwNDQESdr4TaOqKoaHh+F2u1Gr1QzB
+      NLKURkZGUCwW4Xa7AdRXOWlchFQqhVwuZ9hTqRQmJycxPj6O+fl54zz5fB6HDh1CpVJBJpMx
+      eiZFUTA6OopIJGIIpkEoFILf76+PadeHVi6XC+VyGceOHUOxWDTKliTJOGdfX5+x2oooivUl
+      g0QR+/fvN9qv0TM12jUQCBhrwrndbqMXbKRbchwHURTBGMOrr75q+NEoW9M0DAwMGDcxAHi9
+      XpRKJVQqFbjdbly5csXYv1wuw+PxgDGGI0eOGHVr9PAcxxl1bvjJcRwCgQBSqRQURQFjDNPT
+      00aPHovFjJ6prQLI5/PIZrNYWVmBLMvGzSPLsvGEOnv2LA4ePAigPgZLJpNIJBIolUpGeiVQ
+      X4wvm81iZGQEiqLA76/nD6+srCCXy6FSqSASiRiVzmQyhl2SJOPtVLlcRjabRSaTgd/vx8RE
+      /XVqtVqFLMuQZRm6rkNRFLhcLuP1buNJ2RgmAfWni67rWF5ehiRJxvBoZWUFLpcLq6ur9WV3
+      1oW/trYGSZIgCALOnDljPKWKxaLR3ZfLZQSDQQD1dbEaN8Lw8LBpOaBUKmUMi8bGxoyLnkgk
+      wPP1pYncbrfR5teuXYPX64WqqpAkCYcOHQJQH3rxPI9AIIBcLmfsX6lUoCgK3G43VlZWkEql
+      jLXDcrkcfD4fEomEMeRr+OT3+5HP5+H3+8FxHBhjRlufOnUKk5OTxsuSxv6NNm9c04Y9Go0a
+      vWrDV1EUjeFQf3+/cU1rtRokSYLP5zMEqaoqCoUCvF4vAoEAotGo8aA4e/YsJiYmEI1GcfHi
+      ReP1/f8Def4dmG373pMAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='PRA' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Syphilis vs Cervical' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
